@@ -9,12 +9,13 @@ ToDo:
 
 <h3>Terraform</h3>
 Instructions:
+
 Create a service account with the proper IAM permissions
 
     git clone https://github.com/jscottmatthews/gke-iac-multiple-ways.git
     cd gke-iac-multiple-ways/terraform/
 
-Download a key for the SA into the same directory and call it key.json (otherwise modify the code to specify the file's name / path)
+Download a key for the SA into the same directory and call it key.json (otherwise modify the code to specify the file's name / path). Then run the following commands (you will be asked for your project ID)
 
     terraform init 
     terraform plan 
